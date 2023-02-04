@@ -1,0 +1,574 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar Css */
+.my-navbar a.navbar-brand {
+  margin: 0;
+  width: 12%;
+  display: inline-block;
+}
+.my-navbar a.navbar-brand img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.my-navbar .nav-item .nav-link {
+  font-size: 16px;
+  padding: 20px;
+  color: #222;
+  cursor: pointer;
+}
+button.navbar-toggler {
+  border: 0px;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.for-tb-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.sign-in {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  margin-right: 24px;
+  color: #222;
+}
+button.sign-upp {
+  display: inline-block;
+  padding: 9px 17px;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0074e4;
+  font-weight: 600;
+}
+/* Navbar Css End */
+
+
+/* Banner Css */
+.banner {
+  padding: 75px 0 0 0;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.banner p {
+  color: #71828a;
+  font-size: 18px;
+}
+.banner form {
+  margin: 40px 0;
+}
+.banner form button input {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px 0 0 5px;
+}
+.banner form button {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 0 5px 5px 0;
+  background-color: #0074e4;
+  font-weight: 600;
+  color: #fff;
+}
+.banner .hero-paragraph {
+  position: static;
+  display: block;
+  color: #71828a;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.feature-grid-block {
+  padding: 45px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+  width: 100%;
+}
+.feature-grid-block:hover {
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgb(113 130 138 / 20%);
+  color: #1d262c;
+}
+.feature-big-heading {
+  margin-top: 0;
+  color: #71828a;
+  font-weight: 600;
+  text-align: left;
+}
+.paragraph {
+  margin-bottom: 0;
+  color: #71828a;
+  text-align: left;
+}
+.simple-bxs {
+  row-gap: 15px;
+}
+/* Banner Css End */
+
+
+/* How It Works Section */
+.how-work {
+  background: linear-gradient(transparent 20%, #f7f7f7 20%);
+  padding: 80px 0 50px 0;
+}
+.how-work h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.how-work p {
+  color: #71828a;
+  font-size: 18px;
+}
+.how-work h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 28px;
+}
+.phone-img img {
+  width: 100%;
+}
+.how-sec-row {
+  margin-top: -180px;
+}
+/* How It Works Section End */
+
+
+
+/* Pricing Section */
+.pricing {
+  background-color: #0074e4;
+  padding: 60px 0;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+}
+.pricing h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+.pricing p {
+  font-size: 18px;
+}
+/* Pricing Section End */
+
+
+
+/* When It Help Section */
+.when-it {
+  padding: 60px 0;
+}
+.when-it .row {
+  row-gap: 18px;
+}
+.when-it h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.when-it p {
+  color: #71828a;
+  font-size: 18px;
+}
+.hlp-bxs {
+  padding: 25px 5px;
+}
+.hlp-bxs h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1d262c;
+  margin-bottom: 18px;
+}
+.hlp-bxs p {
+  font-size: 16px;
+}
+/* When It Help Section End */
+
+
+
+/* FAQ Section */
+.faq {
+  padding: 150px 0;
+  background-color: #f8f8f8;
+}
+.faq h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.3em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.custom-faq .accordion-item {
+  margin-top: 22px;
+  border: 0;
+  border-radius: 10px !important;
+}
+.custom-faq .accordion-item .accordion-header {
+  margin-bottom: 0;
+  border: 0;
+}
+.custom-faq .accordion-item .accordion-header button {
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 20px;
+  color: #1d262c;
+  font-weight: 500;
+  padding-block: 28px;
+}
+.custom-faq .accordion-item .accordion-body  p {
+  color: #71828a;
+  line-height: 1.4em;
+}
+/* FAQ Section End */
+
+
+
+/* Get Started Section */
+.get-started {
+  padding: 75px 0;
+  background-color: #0074e4;
+  color: #fff;
+}
+.get-started h2 {
+  margin-top: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+.white-form input {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 0;
+  color: #fff;
+}
+.white-form input::placeholder {
+  color: #fff;
+}
+.whit-frm-btn {
+  background: #fff;
+  border: 0;
+  color: #0074e4;
+  padding: 12px 25px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+/* Get Started Section end */
+
+
+/* Footer */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer-txt, .footer-links-main-bx {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer-txt img {
+  width: 25%;
+}
+.footer-txt h6, .footlink h6 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-txt p {
+  color: #71828a;
+  line-height: 1.4em;
+  margin: 0;
+}
+.footer-links-main-bx {
+  justify-content: end;
+  align-items: flex-end;
+}
+.footer-links-main-bx img {
+  width: 35%;
+}
+.footlink a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #71828a;
+  text-decoration: none;
+}
+.footlink {
+  width: 24%;
+}
+p.copy {
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: #71828a;
+}
+.terms {
+  padding: 80px 0;
+}
+.terms h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.terms h5 {
+  margin: 24px 0 10px 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+/* Footer End */
+
+
+
+
+/***********************  
+  Media Queries
+***********************/
+
+
+@media screen and (max-width:1400px) {
+  .my-navbar a.navbar-brand {
+      width: 14%;
+  }
+  .how-sec-row {
+      margin-top: -150px;
+  }
+}
+
+
+@media screen and (max-width:991px) {
+  .my-navbar a.navbar-brand {
+      width: 18%;
+  }
+  .banner h1 {
+      font-size: 40px;
+  }
+  .feature-grid-block {
+      padding: 20px;
+  }
+  .how-work {
+      background: linear-gradient(transparent 26%, #f7f7f7 20%);
+      padding: 60px 0;
+  }
+  .how-work h2 {
+      font-size: 40px;
+  }
+  .how-sec-row {
+      margin-top: -90px;
+  }
+  .pricing h2 {
+      font-size: 40px;
+  }
+
+  .when-it h2 {
+      font-size: 40px;
+  }
+  .pricing {
+      padding: 60px 0;
+      height: 400px;
+  }
+  .faq h2 {
+      font-size: 40px;
+      margin-bottom: 40px;
+  }
+  .faq {
+      padding: 80px 0;
+  }
+
+  .footer-txt img {
+      width: 40%;
+  }
+  .footer-txt, .footer-links-main-bx {
+      gap: 25px;
+  }
+  .footer-txt {
+      flex-wrap: wrap;
+  }
+  .footer-txt h6, .footlink h6 {
+      margin-bottom: 15px;
+      font-size: 16px;
+      font-weight: 600;
+  }
+  .footer-links-main-bx img {
+      width: 48%;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .my-navbar .nav-item .nav-link {
+      padding: 20px 0;
+  }
+  .my-navbar a.navbar-brand {
+      width: 45%;
+  }
+  .banner h1 {
+      font-size: 30px;
+  }
+  .banner p br {
+      display: none;
+  }
+  .banner p {
+      color: #71828a;
+      font-size: 16px;
+  }
+  .banner .hero-paragraph {
+      font-size: 16px;
+  }
+  .banner .hero-paragraph {
+      font-size: 16px;
+  } 
+
+  
+  .how-work {
+      background: linear-gradient(transparent 15%, #f7f7f7 0);
+      padding: 50px 0;
+  }
+  .how-work h2 {
+      font-size: 30px;
+  }
+  .how-sec-row {
+      margin-top: 0px;
+      flex-direction: column-reverse;
+      margin-top: 25px;
+  }
+  .how-work h3 {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 15px;
+  }
+  .how-work p {
+      font-size: 16px;
+  }
+  p.wrksdf {
+      margin-bottom: 60px;
+  }
+
+
+  .pricing h2 {
+      font-size: 30px;
+  }
+  .pricing p {
+      font-size: 16px;
+  }
+  .pricing {
+      background-color: #0074e4;
+      padding: 50px 0;
+      height: 350px;
+  }
+
+
+  .when-it h2 {
+      font-size: 30px;
+  }
+  .when-it p {
+      font-size: 16px;
+  }
+  .hlp-bxs {
+      padding: 8px 5px;
+  }
+
+
+  .faq {
+      padding: 60px 0;
+  }
+  .faq h2 {
+      font-size: 32px;
+      margin-bottom: 35px;
+  }
+  .custom-faq .accordion-item .accordion-header button {
+      font-size: 16px;
+      padding-block: 22px;
+  }
+  .custom-faq .accordion-item {
+      margin-top: 17px;
+  }
+
+
+  .get-started h2 {
+      font-size: 22px;
+  }
+  .whit-frm-btn {
+      padding: 10px 18px;
+  }
+  form.white-form {
+      margin-top: 18px;
+  }
+  .get-started {
+      padding: 50px 0;
+  }
+  .footer-links-main-bx {
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 35px;
+  }
+  .footer-txt img {
+      width: 45%;
+  }
+  .terms h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+.terms h5 {
+    font-size: 18px;
+}
+
+}
+@media (min-width: 1400px){
+.container {
+    max-width: 1100px;
+}
+}
