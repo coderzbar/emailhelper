@@ -8,11 +8,11 @@ export default function Terms() {
     <>
     <Navbarmain />
 
-    <section class ="terms">
-        <div class ="container">
-            <div class ="row">
-                <div class ="col-12">
-                    <h2 class ="text-center">Terms of Service</h2>
+    <section className="terms">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <h2 className="text-center">Terms of Service</h2>
                     <p>Throughout the Website, also referred to as “EmailHelper.ai”, “we”, “us” and “our”, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</p>
                     <p>These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content.</p>
                     <p>Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service.</p>
@@ -63,7 +63,7 @@ export default function Terms() {
                     <p>These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the law.</p>
                     
                     <h5>CONTACT INFORMATION</h5>
-                    <p class ='clr-change' >EmailHelper.ai</p>
+                    <p className='clr-change' >EmailHelper.ai</p>
                 </div>
             </div>
         </div>

@@ -6,11 +6,11 @@ export default function Privacy() {
   return (
     <>
     <Navbarmain />
-    <section class="terms">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-center">Privacy Policy</h2>
+    <section className="terms">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <h2 className="text-center">Privacy Policy</h2>
                     <p>This policy explains what information we collect, why we collect it, who do we share it with, and how you can update, export and delete your information.</p>
                     <p>EmailHelper.ai is the data controller of your information.</p>
                     <p>By agreeing to this Privacy Policy by using the Company Website, you agree to the information handling practices described in this Policy.</p>

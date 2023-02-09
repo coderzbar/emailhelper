@@ -22,14 +22,4 @@ function App() {
 }
 
 
-// function App() {
-//   return (
-//     <>
-//     <Navbarmain />
-//     <Index />
-//     <Footer />
-//     </>
-//   );
-// }
-
 export default App;
